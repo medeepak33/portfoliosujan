@@ -1,0 +1,67 @@
+.LanguageVideo {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.video img{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+.languageDesc{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    max-lines: 1;
+    margin-top: 16px;
+    font-size: 13px;
+    letter-spacing: 1px;
+
+    /* margin-bottom: 20px; */
+    display: block;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* margin-bottom: rem; */
+}
+
+
+@media (max-width: 1000px) {
+    .workText{
+        align-items: center;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 500;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    
+    
+}
+
+@media (min-width: 1000px) {
+    .video img {
+        width: 30%;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .video {
+        display: flex; /* Add display flex */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        width: 100%; /* Ensure it takes full width */
+    }
+
+    .workText {
+        align-items: center;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 500;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}

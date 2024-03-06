@@ -1,0 +1,57 @@
+.WorkVideo {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-bottom: 2rem;
+    /* z-index: 1; */
+}
+
+.workText {
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 2rem;
+}
+
+
+@media (max-width: 1000px) {
+    .workText {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Gamja Flower", sans-serif;
+
+    }
+
+}
+
+
+@media (min-width: 1000px) {
+    .workText {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 1rem;
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+    .workText {
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+        font-family: "Gamja Flower", sans-serif;
+
+        font-weight: 500;
+        margin-bottom: 6rem;
+    }
+}

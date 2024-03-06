@@ -1,0 +1,174 @@
+/* projects.css */
+
+.projectGallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.projectHeader {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Exo 2", sans-serif;
+  margin: 4rem 0;
+  text-align: center;
+  background-color: rgb(253, 251, 251);
+  border: 2px solid black;
+  padding: 1.5rem 0;
+  width: 100%;
+}
+
+.projectRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6rem;
+}
+
+.colleft {
+  width: 68%;
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+.colleft img {
+  width: 100%;
+  height: auto;
+}
+
+.colright {
+  width: 32%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.texts {
+  padding: 2rem;
+}
+
+.framework {
+  font-size: 1.5rem;
+  color: #6b25f6;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+
+.colright h2 {
+  font-size: 2rem;
+  font-family: "Unbounded", sans-serif;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.companyName {
+  font-size: 1rem;
+  margin-top: 3px;
+  letter-spacing: 1px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.description {
+  color: black;
+  margin: 0;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+.use {
+  font-size: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 1rem;
+}
+
+.view a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-family: "Gamja Flower", sans-serif;
+  margin-top: 1rem;
+  /* border-radius: 4px; */
+}
+
+@media (max-width: 1000px) {
+
+  .colleft,
+  .colright {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .colleft img {
+    border-radius: 0;
+  }
+
+  .projectRow {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  .colright {
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+  }
+
+  .texts {
+    padding: 1rem;
+  }
+
+  .framework {
+    font-size: 0.9rem;
+  }
+
+  .colright h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+
+  }
+
+  .companyName {
+    font-size: 0.875rem;
+    
+  }
+
+  .description {
+    font-size: 0.9rem;
+    margin-top: 0;
+  }
+
+  .use {
+    margin-top: 3px;
+    font-size: 0.875rem;
+  }
+
+  .view a {
+    font-size: 1rem;
+    padding: 0.75rem;
+  }
+
+  .projectHeader {
+    font-size: 1.75rem;
+    margin: 2rem 0;
+    padding: 1rem 0;
+  }
+}
+
+@media (max-width: 1500px) {
+  .projectGallery {
+    padding: 0 1rem;
+  }
+}
