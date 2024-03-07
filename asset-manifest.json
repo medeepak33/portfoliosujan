@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfoliosujan/static/css/main.9caf4199.css",
+    "main.js": "/portfoliosujan/static/js/main.e28169b3.js",
+    "static/media/workk.mp4": "/portfoliosujan/static/media/workk.76ab1704ec3b1a05b130.mp4",
+    "static/media/foodapp.jpg": "/portfoliosujan/static/media/foodapp.20eddf8596af4660c76d.jpg",
+    "static/media/introvideo.mp4": "/portfoliosujan/static/media/introvideo.36c03f5ce099217c15ae.mp4",
+    "static/media/expresscv.jpg": "/portfoliosujan/static/media/expresscv.030288d953eebd92435c.jpg",
+    "static/media/timelinePackage.jpg": "/portfoliosujan/static/media/timelinePackage.b455a378a509fac85cf0.jpg",
+    "static/media/solarPlanet.jpg": "/portfoliosujan/static/media/solarPlanet.84935007d343141ce25d.jpg",
+    "static/media/language.gif": "/portfoliosujan/static/media/language.1d0a69733c1c8f9a6ff2.gif",
+    "index.html": "/portfoliosujan/index.html",
+    "main.9caf4199.css.map": "/portfoliosujan/static/css/main.9caf4199.css.map",
+    "main.e28169b3.js.map": "/portfoliosujan/static/js/main.e28169b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9caf4199.css",
+    "static/js/main.e28169b3.js"
+  ]
+}
